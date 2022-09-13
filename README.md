@@ -21,5 +21,4 @@ Things you may want to cover:
 
 * Deployment instructions
 * Following documentation is for the Rails rails in the link below.
-
-* https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark
+ https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark
