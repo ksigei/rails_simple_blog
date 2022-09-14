@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   root "articles#index"
   # get "/articles", to: "articles#index"
   # get "/articles/:id", to: "articles#detail"
-  resources :articles
+  resources :articles do
+    resources :comments
+  end
   get '/about', to: 'about#about'
   # resources :about
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
